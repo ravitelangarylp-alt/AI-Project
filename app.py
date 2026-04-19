@@ -44,7 +44,7 @@ def chat():
 
         # Gemini API Call (ಉಚಿತ ಹಾಗೂ ವೇಗದ ಮಾಡೆಲ್)
         response = client.models.generate_content(
-            model='gemini-1.5-flash', # 'Top-end' ಬೇಕಿದ್ದರೆ ಇದನ್ನು 'gemini-1.5-pro' ಎಂದು ಬದಲಾಯಿಸಿ
+            model='gemini-2.5-flash',
             contents=prompt
         )
 
